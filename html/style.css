@@ -1,0 +1,136 @@
+
+:root {
+    --main-bkg-color: rgba(17, 17, 17, .3);
+    --default-blur: .14vw;
+    --default-box-shadow: inset 0px 0px 12px 0px rgba(17, 17, 17, 0.8);
+    --verde: #15DB95; /*#3AFE32*/
+    --amarillo: #FED614;
+    --naranja: #FFAE00;
+    --azulfuerte: #003EFF;
+    --azul: #06D2EA;
+    --rojo: #FC4445; /*#F33439*/
+    --violeta: #8860D0;
+    --purpira: #E64398;
+    --blanco: #fff;
+}
+
+body {
+    width: 100%;
+    overflow: hidden;
+}
+
+#logo {
+    position: absolute;
+    opacity: 1;
+    right:  -37vh;
+    top: 1vh;
+}
+
+#hud {
+    position: absolute;
+    bottom: 0.1vh;
+    left: 75vh;
+
+    background: var(--main-bkg-color);
+    border-radius: .6vw;
+    backdrop-filter: var(--default-blur);
+    box-shadow: var(--default-box-shadow);
+    padding: 0.4vh;
+    margin-left: 1vh;
+}
+#hud #healt {
+    color: #fff;
+}
+#hud #healtval  {
+    color: #fff;
+}
+#hud #shieldval  {
+    color: #fff;
+}
+
+#hud #hungerval  {
+    color: #fff;
+}
+
+#hud #waterval  {
+    color: #fff;
+}
+
+#hud #shield {
+    color: #fff;
+}
+
+#hud #hunger {
+    color: #fff;
+}
+
+#hud #water {
+    color: #fff;
+}
+
+
+
+#hudcar {
+    position: absolute;
+    bottom: -10vh;
+    left: 75vh;
+
+    background: var(--main-bkg-color);
+    border-radius: .6vw;
+    backdrop-filter: var(--default-blur);
+    box-shadow: var(--default-box-shadow);
+    padding: 0.4vh;
+    margin-left: 1vh;
+}
+
+#hudcar #healt {
+    border-radius: 0.5vh 0 0 0.5vh;
+}
+
+#hudcar #fuel {
+    border-radius: 0 0.5vh 0.5vh 0;
+}
+
+.recuadro {
+    color: white;
+    float: left;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: .6vw;
+    margin-left: 1vh;
+}
+
+.fas {
+    font-size:1.5vh;
+    vertical-align: middle;
+    margin-left: 0.5vh;
+}
+
+.recuadro1 {
+    color: white;
+    float: left;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: .6vw;
+    margin-left: 1vh;
+
+}
+
+#carstats {
+    position: absolute;
+    bottom: 3vh;
+    left: 28vh;
+}
+
+
+.textpercent {
+    width: 2vh;
+    float: right;
+    padding-left: 0.5vh;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.6vh;
+    margin-right: 1vh;
+
+}
+
